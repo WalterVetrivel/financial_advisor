@@ -109,36 +109,22 @@
                     <div class="col-md-6">
                         <p><b>I provide financial planning advice for</b></p>
                         <ul class="service-list">
+                            @foreach($planning_services as $service)
                             <li>
-                                <i class="fa fa-money mr-2"></i>Children's education
+                                <i class="fa fa-money mr-2"></i>{{ $service->service }}
                             </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>Children's wedding
-                            </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>House construction
-                            </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>Vehicle purchase / replacement
-                            </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>Tax planning
-                            </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>Retirement planning
-                            </li>
+                            @endforeach
                             <li class="text-primary">And more</li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <p><b>I provide insurance advice for</b></p>
                         <ul class="service-list">
+                            @foreach($insurance_services as $service)
                             <li>
-                                <i class="fa fa-money mr-2"></i>Life insurance
+                                <i class="fa fa-money mr-2"></i>{{ $service->service }}
                             </li>
-                            <li>
-                                <i class="fa fa-money mr-2"></i>Health insurance
-                            </li>
+                            @endforeach
                             <li class="text-primary">And more</li>
                         </ul>
                     </div>

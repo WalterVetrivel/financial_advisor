@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\MainController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +13,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'MainController@home')->name('home');
