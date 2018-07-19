@@ -22,7 +22,8 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 window.sr = ScrollReveal({
-    reset: true
+    reset: true,
+    mobile: false
 });
 
 sr.reveal('h1', {

@@ -131,7 +131,12 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="{{URL::asset('img/advice.jpg')}}" alt="Advice" class="img-fluid rounded">
+                <img src="{{URL::asset('img/advice.jpg')}}" alt="Advice" class="img-fluid rounded mb-5">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="main main-big">"Insure today. Your health should not depend on your wealth."</p>
             </div>
         </div>
     </div>

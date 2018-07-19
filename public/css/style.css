@@ -181,6 +181,10 @@ h3 {
     text-align: center;
 }
 
+.main-big {
+    font-size: 32px !important;
+}
+
 .reason-list,
 .service-list {
     list-style: none;
@@ -243,7 +247,41 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #landing h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .main-big {
+        font-size: 24px !important;
+    }
+
     #about {
         text-align: center !important;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #landing h1 {
+        font-size: 48px;
+    }
+
+    .main {
+        font-size: 18px;
     }
 }
